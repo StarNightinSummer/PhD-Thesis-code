@@ -9,4 +9,4 @@
 # "final functions.R" contains the functions we need in Section 3 and appendix
 # "final run setting.R" includes the setting for simulations in Section 3 and Appendix
 # "data.csv" is the data for the application in Section 3
-# "final application.R" is the setting for the application in Section 3
+# "final application run.R" is the setting for the application in Section 3
