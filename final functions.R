@@ -1057,13 +1057,10 @@ p.match <- function(par, include.AR, type, ndim){
   ###########################################################################################
   ##                                                                                       ##
   ##  Description:                                                                         ##
-  ##  Asymptotic variance and model checking for VARMA-GARCH model specified               ##
+  ##  Asymptotic variance for VARMA-GARCH model specified                                  ##
   ##  by LING & McAleer (2003), specified as AR(1)-GARCH(1,1) or mu-GARCH(1,1)             ##                            
   ##  par -- QMLE or self-weighted QMLE                                                    ##
   ##  data -- a nT-by-N matrix of data                                                     ##
-  ##  type -- only GARCH part is "diagonal" or "extended"                                  ##
-  ##  adj -- number of coefficient parameters in the ARMA part in the fitted model.        ##
-  ##        (without counting those in the mean and covariance matrix)                     ##
   ##  type -- only GARCH part is "diagonal", "half-diagonal", or "extended"                ##
   ##                                                                                       ##
   ##                                                                                       ##
@@ -1426,7 +1423,6 @@ p.match <- function(par, include.AR, type, ndim){
   ##  by LING & McAleer (2003), specified as AR(1)-GARCH(1,1) or mu-GARCH(1,1)             ##                            
   ##  par -- QMLE or self-weighted QMLE                                                    ##
   ##  data -- a nT-by-N matrix of data                                                     ##
-  ##  type -- only GARCH part is "diagonal" or "extended"                                  ##
   ##  adj -- number of coefficient parameters in the ARMA part in the fitted model.        ##
   ##        (without counting those in the mean and covariance matrix)                     ##
   ##  type -- only GARCH part is "diagonal", "half-diagonal", or "extended"                ##
@@ -3219,5 +3215,6 @@ p.match <- function(par, include.AR, type, ndim){
 
 
 ############################################################################################################################################
+
 
 
